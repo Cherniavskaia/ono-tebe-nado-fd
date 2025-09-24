@@ -175,7 +175,7 @@
     box-sizing: border-box;
     width: 100%;
     max-width: 1052px;
-    margin: 0 auto 60px;
+    margin: 0 auto;
     padding: 180px 0 0 24px;
 }
 
@@ -274,7 +274,7 @@
     grid-template-columns: 359px 1fr;
     gap: 25px;
     padding: 180px 50px 90px 50px;
-    margin-top: 60px;
+    margin-top: 120px;
     margin-bottom: 0;
 }
 
