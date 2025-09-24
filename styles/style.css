@@ -377,13 +377,15 @@
 }
 @media (max-width: 1100px) {
   .header {
-    padding: 92px 50px 92px 50px;
+    padding: 92px 140px;
   }
+  
   .cover {
-    padding: 165px 50px 50px 50px
-}
-.lots {
-    padding: 180px 50px 90px 50px;
+    padding: 165px 140px 50px;
+  }
+  
+  .lots {
+    padding: 180px 140px 90px;
   }
   
   .lots__card-list {
@@ -392,15 +394,16 @@
     gap: 25px;
   }
   
-  .card {
-    min-width: 350px; 
+  .lots__card-list-item {
     flex: 1;
+    min-width: 300px;
   }
+  
   .about {
-    padding: 0 50px 180px 50px;
+    padding: 0 140px 180px;
   }
   
   .footer {
-    padding: 180px 50px 90px 50px;
+    padding: 180px 140px 90px;
   }
 }
