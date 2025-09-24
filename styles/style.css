@@ -319,7 +319,7 @@
     gap: 25px;
     font-size: 20px;
     line-height: 24px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .footer {
@@ -336,7 +336,7 @@
     display: flex;
     flex-direction: column;
     justify-self: start;
-    padding-bottom: 82px;
+    margin-bottom: 82px;
     gap: 2px; 
     line-height: 1.35;
     max-width: 240px;
@@ -346,7 +346,7 @@
 .footer__menu {
     justify-self: center;
     margin: 0;
-    padding-bottom: 115px;
+    margin-bottom: 115px;
 }
 
 .footer__menu-list {
@@ -376,7 +376,7 @@
     display: flex;
     gap: 48px;
     list-style: none;
-    padding-bottom: 131px;
+    margin-bottom: 131px;
     margin: 0;
     justify-self: end;
     align-items: center;
