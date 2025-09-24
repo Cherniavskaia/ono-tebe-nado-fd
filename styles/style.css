@@ -241,6 +241,7 @@
     font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: 700;
+    letter-spacing: 1px;
     line-height: 120%;
     text-decoration: underline;
     z-index: 2;   
@@ -337,6 +338,7 @@
     flex-direction: column;
     justify-self: start;
     margin-bottom: 82px;
+    margin-left: 50px;
     gap: 2px; 
     line-height: 1.35;
     max-width: 240px;
@@ -346,6 +348,7 @@
 .footer__menu {
     justify-self: center;
     margin: 0;
+    margin-top: 1px;
     margin-bottom: 115px;
 }
 
@@ -377,6 +380,8 @@
     gap: 48px;
     list-style: none;
     margin-bottom: 131px;
+    margin-left: 50px;
+    margin-top: 1px;
     margin: 0;
     justify-self: end;
     align-items: center;
