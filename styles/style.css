@@ -4,6 +4,7 @@
     align-items: start;
     padding: 92px 51px;
     gap: 40px;
+    margin-bottom: 0;
 }
 
 .header__logo {
@@ -68,6 +69,7 @@
     grid-template-rows: 165px 1fr 207px;
     grid-template-columns: 50px 1fr 50px;
     padding: 0
+    margin-top: 0;
 }
 
 .overlay {
@@ -284,6 +286,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 35px;
+    margin-left: 47px;
     width: 240px;
     height: 240px;
     border-radius: 50%;
@@ -296,7 +300,7 @@
 }
 
 .about__column {
-    padding-top: 120px;
+    margin: 133px 0 13px 0;
 }
 
 .about__title {
@@ -338,6 +342,7 @@
 
 .footer__menu {
     justify-self: center;
+    margin: 0;
 }
 
 .footer__menu-list {
