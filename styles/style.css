@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: start;
-    padding: 92px 51px;
+    padding: 92px 51px 96px;
     gap: 40px;
     margin-bottom: 0;
 }
@@ -91,7 +91,7 @@
     height: 100%;
     z-index: 2;
     color: #fff;
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700; 
     font-size: 100px;
     line-height: 115px;
@@ -146,7 +146,7 @@
 }
 
 .cover__description-text {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 22px;
     line-height: 28px;
@@ -160,7 +160,7 @@
 .bet-button {
     border: 1px solid #fff;
     background: transparent;
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
@@ -197,6 +197,7 @@
     margin: 0;                  
     padding: 0;
     justify-content: space-between;
+    list-style: none;
 }
 
 .lots__card-list-item {
@@ -218,7 +219,7 @@
     justify-content: space-between; 
     position: relative;
     height: 100%;                
-    padding: 50px 40px;           
+    padding: 48px 40px;           
     background-size: cover;       
     background-position: center;  
     background-repeat: no-repeat;
@@ -237,19 +238,19 @@
 }
 
 .card__title {
-    list-style: none; 
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 22px;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     line-height: 120%;
     text-decoration: underline;
+    text-transform: uppercase;
     z-index: 2;   
     margin: 0;
 }
 
 .card__text {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 120%;
@@ -336,7 +337,7 @@
     flex-direction: column;
     justify-self: start;
     gap: 2px; 
-    line-height: 1.35;
+    line-height: 1.2;
     max-width: 240px;
     font-style: normal;
 }
