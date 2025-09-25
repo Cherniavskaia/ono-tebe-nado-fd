@@ -346,8 +346,8 @@
 
 .footer__menu {
     justify-self: center;
-    margin-top: 1px;
-    margin-bottom: 115px;
+    /*margin-top: 1px;
+    margin-bottom: 115px;*/
 }
 
 .footer__menu-list {
@@ -356,6 +356,7 @@
     gap: 2px;
     list-style: none;
     padding: 0;
+    margin: 1px 0 115px 0;
     text-align: center;
 }
 
@@ -379,7 +380,8 @@
     margin-bottom: 131px;
     margin-top: 1px;
     justify-self: end;
-    align-items: center;
+    /*align-items: center;*/
+    text-align: center;
 }
 
 .footer__social-list img {
