@@ -328,15 +328,13 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
     align-items: start;
-    padding: 1px 50px 180px 50px;;
+    padding: 1px 50px 82px 50px;
 }
 
 .footer__address {
     display: flex;
     flex-direction: column;
     justify-self: start;
-   
-
     gap: 2px; 
     line-height: 1.35;
     max-width: 240px;
