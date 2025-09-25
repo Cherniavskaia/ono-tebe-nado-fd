@@ -350,7 +350,7 @@
     flex-direction: column;
     gap: 2px;
     list-style: none;
-    padding: 0;
+    padding-bottom: 33px;
     text-align: center;
 }
 
@@ -373,6 +373,7 @@
     list-style: none;
     justify-self: end;
     text-align: center;
+    padding-bottom: 131px;
 }
 
 .footer__social-list img {
