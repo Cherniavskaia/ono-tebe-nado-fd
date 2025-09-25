@@ -328,15 +328,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
     align-items: start;
-    height: 180px;
-    padding: 0 50px;
+    padding: 1px 50px 180px 50px;;
 }
 
 .footer__address {
     display: flex;
     flex-direction: column;
     justify-self: start;
-    margin-bottom: 82px;
+   
 
     gap: 2px; 
     line-height: 1.35;
@@ -346,8 +345,6 @@
 
 .footer__menu {
     justify-self: center;
-    /*margin-top: 1px;
-    margin-bottom: 115px;*/
 }
 
 .footer__menu-list {
@@ -356,7 +353,6 @@
     gap: 2px;
     list-style: none;
     padding: 0;
-    margin: 1px 0 115px 0;
     text-align: center;
 }
 
@@ -377,10 +373,7 @@
     display: flex;
     gap: 48px;
     list-style: none;
-    margin-bottom: 131px;
-    margin-top: 1px;
     justify-self: end;
-    /*align-items: center;*/
     text-align: center;
 }
 
