@@ -31,7 +31,7 @@ body, html {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 32px;
+    gap: 36px;
 }
 
 .header__links-list-item {
@@ -388,7 +388,7 @@ body, html {
     text-underline-offset: 4px;
     text-decoration-thickness: 1px;
     font-size: 18px;
-    line-height: 1.35;
+    line-height: 1;
 }
 
 .footer__menu-link_active {
