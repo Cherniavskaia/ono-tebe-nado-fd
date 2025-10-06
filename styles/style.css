@@ -78,6 +78,7 @@ body, html {
 }
 
 .address {
+    display: flex;
     font-style: normal;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -94,7 +95,6 @@ body, html {
 }
 
 .header__address {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-self: end;
@@ -384,7 +384,6 @@ body, html {
 }
 
 .footer__address {
-    display: flex;
     flex-direction: column;
     justify-self: start;
     line-height: 1.2;
